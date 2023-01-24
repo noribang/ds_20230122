@@ -5,5 +5,10 @@
 //          the same.
 
 function same(arr1, arr2) {
-    
+
 }
+
+array1 = [1, 2, 3]
+array2 = [1, 4, 9]
+
+same(array1, array2)
