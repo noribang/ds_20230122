@@ -5,10 +5,18 @@
 //          the same.
 
 function same(arr1, arr2) {
-    console.log(arr1);
-    console.log(arr2);
+    // Test if two arrays are same length.
+    // If not return false.
+    if (arr1.length !== arr2.length) {
+        return false;
+    }
+    // // 
+    // for (i = 0; i < arr1.length; i++) {
+
+    // }
+
 }
 
 test1 = [1,2,3]
-test2 = [4,5,6]
+test2 = [1,4,9,12]
 same(test1, test2)
