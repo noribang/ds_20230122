@@ -10,10 +10,19 @@ function same(arr1, arr2) {
     if (arr1.length !== arr2.length) {
         return false;
     }
-    // // 
-    // for (i = 0; i < arr1.length; i++) {
+    // 
+    for (i = 0; i < arr1.length; i++) {
+        // Get index of value in arr2.
+        // Value is element in arr1 squared.
+        let correctIndex = arr2.indexOf(arr[i] ** 2)
+        // If arr2 indexOf return -1 it does not exist
+        // and return false.
+        if (correctIndex === -1) {
+            return false;
+        }
+        // arr2.splice
 
-    // }
+    }
 
 }
 
