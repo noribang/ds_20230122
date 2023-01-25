@@ -1,9 +1,3 @@
-// Problem: Write a function called same, which accepts two arrays.
-//          The function should return true if every value in the 
-//          array has it's corresponding value squared in the 
-//          second array. The frequency of the values must be 
-//          the same.
-
 function same(arr1, arr2) {
     // Test if two arrays are same length.
     // If not return false.
@@ -14,18 +8,17 @@ function same(arr1, arr2) {
     for (i = 0; i < arr1.length; i++) {
         // Get index of value in arr2.
         // Value is element in arr1 squared.
-        let correctIndex = arr2.indexOf(arr[i] ** 2)
+        let correctIndex = arr2.indexOf(arr1[i] ** 2)
         // If arr2 indexOf return -1 it does not exist
         // and return false.
         if (correctIndex === -1) {
             return false;
         }
-        // arr2.splice
-
+        arr2.splice(correctIndex, 1);
     }
-
+    return true;
 }
 
-test1 = [1,2,3]
-test2 = [1,4,9,12]
+test1 = [1,2,3,4,5]
+test2 = [9,25,16,4,1]
 same(test1, test2)
