@@ -20,9 +20,13 @@ function same(arr1, arr2) {
     for (let val of arr2) {
         frequencyCounter2[val] = (frequencyCounter2[val] || 0) + 1;
     }
+    // Test if each value in arr2 is the square of each value in arr1. 
+    for (let key in frequencyCounter1) {
+        console.log(key)
+    }
 
-    console.log(frequencyCounter1)
-    console.log(frequencyCounter2)
+    // console.log(frequencyCounter1)
+    // console.log(frequencyCounter2)
     return true;
 }
 
