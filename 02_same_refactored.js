@@ -23,7 +23,13 @@ function same(arr1, arr2) {
     // Test if each value in arr2 is the square of each value in arr1. 
     for (let key in frequencyCounter1) {
         console.log(key)
+        // if !false return false.
+        // if key**2 is not in frequencyCounter2 object.
         if (!(key ** 2 in frequencyCounter2)) {
+            return false
+        }
+        // Check frequency of key**2 matches frequency of key.
+        if (frequencyCounter2[key**2] !== frequencyCounter1[key]) {
             return false
         }
     }
