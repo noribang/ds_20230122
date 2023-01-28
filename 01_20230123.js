@@ -1,3 +1,5 @@
+// O(n^2) time.
+// Nested loop using indexOf.
 function same(arr1, arr2) {
     // Test if two arrays are same length.
     // If not return false.
