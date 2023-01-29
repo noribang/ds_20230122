@@ -4,8 +4,15 @@
 // rearranging the letters of another, such as,
 // "cinema", formed from "iceman".
 
-function (str1, str2) {
-    
+// Same elements in each array.
+// Same frequency of elements in each array.
+
+function checkAnagram(first, second) {
+    // Test if two arrays are the same length.
+    // If not return 
+    if (first.length !== second.length) {
+        return false;
+    }
 }
 
 

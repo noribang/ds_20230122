@@ -1,3 +1,11 @@
+// Problem: Given two strings determine if 
+// second string is an anagram of the second string.
+// Anagram is a word, phrase or name formed by 
+// rearranging the letters of another, such as,
+// "cinema", formed from "iceman".
+
+// Same elements in each array.
+// Same frequency of elements in each array.
 function validAnagram(first, second) {
     if (first.length !== second.length) {
       return false;
