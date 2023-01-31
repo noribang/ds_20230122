@@ -21,9 +21,24 @@ function checkAnagram(first, second) {
         // If letter exists, increment, otherwise set to 1.
         lookup[letter] ? lookup[letter] += 1 : lookup[letter] = 1;
     }
-    console.log(lookup);
-    // 
+    // console.log(lookup);
+    // Test for anagram in second string.
+    for (let i = 0; i < second.length; i++) {
+        // Loop through each letter in string.
+        let letter = second[i];
+        // console.log(letter)
+        // If letter in second string is not found
+        // in first string return false.
+        
+        if (!lookup[letter]) {
+            console.log(lookup[letter])
+            return false;
 
+        }
+
+
+
+    }
 }
 
 
