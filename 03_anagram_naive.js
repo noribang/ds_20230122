@@ -31,14 +31,13 @@ function checkAnagram(first, second) {
         // in first string return false.
         
         if (!lookup[letter]) {
-            console.log(lookup[letter])
+            // console.log(lookup[letter])
             return false;
-
+        } else {
+            lookup[letter] -= 1;
         }
-
-
-
     }
+    return true;
 }
 
 
