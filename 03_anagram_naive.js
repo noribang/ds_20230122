@@ -4,8 +4,8 @@
 // rearranging the letters of another, such as,
 // "cinema", formed from "iceman".
 
-// Same elements in each array.
-// Same frequency of elements in each array.
+// Same elements in each string.
+// Same frequency of elements in each string.
 
 function checkAnagram(first, second) {
     // Test if two arrays are the same length.
@@ -13,6 +13,17 @@ function checkAnagram(first, second) {
     if (first.length !== second.length) {
         return false;
     }
+    // Create object to hold frequency of each character in first string.
+    const lookup = {};
+    // Loop through each character in 1st string.
+    for (i = 0; i < first.length; i++) {
+        let letter = first[i];
+        // If letter exists, increment, otherwise set to 1.
+        lookup[letter] ? lookup[letter] += 1 : lookup[letter] = 1;
+    }
+    console.log(lookup);
+    // 
+
 }
 
 
