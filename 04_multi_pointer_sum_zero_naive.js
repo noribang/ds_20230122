@@ -9,8 +9,9 @@
 function sumZero(arr) {
     // Iterate through array starting at index 0 to the end.
     for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i]);
         for (let j = i + 1; j < arr.length; j++) {
-
+            console.log(arr[j])
         }
     }
 
