@@ -2,6 +2,12 @@
 // e.g. Calculate sum of n consecutive elements in an array.
 
 function maxSubarraySum(arr, num) {
+    // Check if num subset of array is greater than array. 
+    // Return null if true.
+    if (num > arr.length) {
+        return null
+    }
+
 
 }
 
