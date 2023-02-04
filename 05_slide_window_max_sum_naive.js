@@ -2,6 +2,8 @@
 // e.g. Calculate greatest sum of n consecutive elements in an array.
 // Can be sorted or not sorted.
 
+// Time complexity O(n^2). Nested loops.
+
 function maxSubarraySum(arr, num) {
     // Check if subset testing for is greater than array itself.
     if (num > arr.length) {
