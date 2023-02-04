@@ -4,5 +4,28 @@
 
 // Time complexity O(n).
 function maxSubarraySum(arr, num) {
-    
+    let maxSum = 0;
+    let tempSum = 0;
+    // Check if subset of numbers looking at 
+    // is longer than array itself.
+    if (arr.length < num) {
+        return null;
+    }
+    // Initial subset window starting from 0.
+    // Get sum of initial subset of values.
+    for (let i = 0; i < num; i++) {
+        maxSum = maxSum + arr[i];
+        // console.log(maxSum)
+    }
+    // 
+    tempSum = maxSum;
+    for (let i = num; i < arr.length; i++) {
+        // Keep updating tempSum
+        tempSum = tempSum - arr[i - num] + arr[i];
+        console.log(tempSum)
+        maxSum = Math.max(maxSum, tempSum)
+    }
+    return maxSum;
 }
+
+maxSubarraySum([2,6,9,2,1,8,5,6,3],3)
