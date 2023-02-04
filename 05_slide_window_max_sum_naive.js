@@ -10,10 +10,19 @@ function maxSubarraySum(arr, num) {
     let max = -Infinity
     // Sliding window for loop. 
     for (let i = 0; i < arr.length - num + 1; i++) {
-
+        // Variable to store sum of subset values.
+        temp = 0;
+        // Inner loop. Keeps walking to right with 
+        // array summing up the values.
+        for (let j = 0; j < num; j++) {
+            temp += arr[i + j];
+        }
+        if (temp > max) {
+            max = temp;
+            console.log("max: " + max)
+        }
     }
-
-
+    return max;
 }
 
 maxSubarraySum([],3)
