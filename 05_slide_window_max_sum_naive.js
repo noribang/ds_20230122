@@ -1,5 +1,6 @@
 // Problem: Find subset of data in a larger set of data.
 // e.g. Calculate greatest sum of n consecutive elements in an array.
+// Can be sorted or not sorted.
 
 function maxSubarraySum(arr, num) {
     // Check if subset testing for is greater than array itself.
