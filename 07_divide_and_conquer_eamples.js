@@ -1,5 +1,6 @@
 // 1) LINEAR SEARCH
-// Time complexity O(n).
+// Time complexity O(n) linear time.
+// Sorted required.
 
 // Search for a value in array and return the index.
 // Loop through an array from left to right until value is found.
@@ -18,3 +19,25 @@ function search(arr, val) {
 
 let arrSearch = [1,2,3,6,9,12,21,28,35,46,53,63]
 search(arrSearch, 3)
+
+
+// 1) BINARY SEARCH
+// Time complexity Log(n) linear time.
+// Sorted required.
+
+function biSearch(arr, val) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
