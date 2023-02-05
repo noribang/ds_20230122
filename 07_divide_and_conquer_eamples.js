@@ -37,9 +37,18 @@ function biSearch(arr, val) {
         let middle = Math.floor((min + max) / 2);
         // Get middle element.
         let currentElement = arr[middle];
-        
-
-
+        // If mid element is less than val change min to 1 position to right.
+        if (arr[middle] < val) {
+            min = middle + 1;
+        }
+        // If mid element is greater than val change max to 1 position to left.
+        else if (arr[middle] > val) {
+            max = middle - 1;
+        }
+        // Return middle if neither greater than nor less than.
+        else {
+            return middle;
+        }
     }
     // If value not found return -1;
     return -1;
