@@ -24,8 +24,12 @@ search(arrSearch, 3)
 // 1) BINARY SEARCH
 // Time complexity Log(n) linear time.
 // Sorted required.
+// Cuts down search in half each iteration.
 
 function biSearch(arr, val) {
+    let min = 0;
+    let max = arr.length - 1;
+
 
 }
 
