@@ -30,9 +30,23 @@ function biSearch(arr, val) {
     let min = 0;
     let max = arr.length - 1;
 
+    // Cut down search in half each iteration.
+    while (min <= max) {
+        // Round number down to nearest integer.
+        // e.g. 4.5 = 4
+        let middle = Math.floor((min + max) / 2);
+        // Get middle element.
+        let currentElement = arr[middle];
+        
 
+
+    }
+    // If value not found return -1;
+    return -1;
 }
 
+let biSearch = [1,2,3,6,9,12,21,28,35,46]
+search(biSearch, 3)
 
 
 
