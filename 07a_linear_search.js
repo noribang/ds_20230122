@@ -10,8 +10,6 @@ function linearSearch(arr, val) {
         if (arr[i] === val) {
             return i;
         }         
-
-
     }
 
 }
