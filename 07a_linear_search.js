@@ -4,6 +4,8 @@
 
 // Return index of val in arr.
 function linearSearch(arr, val) {
+    // Search from left to right.
+
 
 }
 
