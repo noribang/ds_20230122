@@ -7,7 +7,9 @@ function linearSearch(arr, val) {
     // Search from left to right.
     for (let i = 0; i < arr.length; i++) {
         // Check each element in array to see if equal to val.
-         
+        if (arr[i] === val) {
+            return i;
+        }         
 
 
     }
