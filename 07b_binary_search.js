@@ -3,5 +3,9 @@
 // Sorted.
 
 function binarySearch(arr, val) {
+    // 
+    let min = 0;
+    let max = arr.length - 1;
+    // 
 
 }
