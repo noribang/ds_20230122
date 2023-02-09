@@ -9,5 +9,9 @@ function binarySearch(arr, val) {
     while (min <= max) {
         // Round down middle index.
         let middle = Math.floor((min + max) / 2);
+        // 
+        let currentElement = arr[middle];
+
+
     }
 }
