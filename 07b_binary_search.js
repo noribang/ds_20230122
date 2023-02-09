@@ -6,5 +6,7 @@ function binarySearch(arr, val) {
     let min = 0;
     let max = arr.lenght - 1;
 
-    
+    while (min <= max) {
+        
+    }
 }
