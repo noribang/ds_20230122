@@ -7,6 +7,7 @@ function binarySearch(arr, val) {
     let max = arr.lenght - 1;
 
     while (min <= max) {
-        
+        // Round down middle index.
+        let middle = Math.floor((min + max) / 2);
     }
 }
