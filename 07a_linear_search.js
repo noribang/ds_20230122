@@ -1,21 +1,7 @@
 // Linear search
-// O(n) linear time.
+// O(n) time complexity.
 // Array must be sorted.
 
-// Return index of val in arr.
-function linearSearch(arr, val) {
-    // Search from left to right.
-    for (let i = 0; i < arr.length; i++) {
-        // Check each element in array to see if equal to val.
-        if (arr[i] === val) {
-            console.log("index is at:", i)
-            console.log("value is: ", val)
-            return i;
-        }         
-    }
-    // If val never found. 
-    return -1;
-}
 
 let arrSearch = [1,2,3,6,9,12,21,28,35,46,53,63]
-search(arrSearch, 3)
+linearSearch(arrSearch, 3)
