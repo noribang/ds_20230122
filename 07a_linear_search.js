@@ -5,7 +5,7 @@
 // 
 function linearSearch(arr, val) {
     // 
-    for () {
+    for (let i = 0; i < arr.length; i++) {
         // 
         let current = arr[i]
         console.log("current: ", current)
