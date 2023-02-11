@@ -19,8 +19,20 @@ function countDown(num) {
 countDown(11);
 
 // 2.
-// Sum numbers.
+// Sum range of numbers.
 function sumRange(num) {
+    // a) Base case. Recursion stops.
+    if (num === 1) { return 1; }
+    // b) Recursive case.
+    return num + sumRange(num - 1);
+}
+
+sumRange(5);
+
+// 3a. Factorial
+// Iterative.
+// e.g. 4! = 4 * 3 * 2 * 1
+function factorial (num) {
 
 }
 
