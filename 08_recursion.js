@@ -34,14 +34,18 @@ sumRange(5);
 // e.g. 4! = 4 * 3 * 2 * 1
 function factorial (num) {
     let total = 1;
-    for (let i = num; i > 0; i--) {
+    console.log("total initial: ", total)
+    // for (let i = num; i > 0; i--) {
+    for (let i = num; i > 1; i--) { // Not necessary to multiple by 1.
         total = total * i;
+        console.log("total: ", total)
     }
-    return total;
+    // return total;
 }
 
-factorial(4);
+factorial(7);
 
+// e.g.
 // function factorial (4) {
 //     let total = 1;
 //     for (let i = 4; i > 0; i--) {
@@ -55,4 +59,11 @@ factorial(4);
 
 // }
 
+// 3b) Factorial recursively.
+function factorialRecursive(num) {
+    // Base case.
+    if (num === 1) { return 1; }
+    // Recursive case.
+    return num * factorial(num - 1)
+}
 
