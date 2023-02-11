@@ -1,7 +1,8 @@
 // Recursion
-// 1) Base case. Recursion stops.
-// 2) Recursive case. Different input.
+// a) Base case. Recursion stops.
+// b) Recursive case. Different input.
 
+// 1.
 // Prints numbers in decreasing order.
 function countDown(num) {
     // Base case.
@@ -16,3 +17,10 @@ function countDown(num) {
 }
 
 countDown(11);
+
+// 2.
+// Sum numbers.
+function sumRange(num) {
+
+}
+
