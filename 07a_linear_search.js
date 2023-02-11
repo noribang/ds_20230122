@@ -4,7 +4,11 @@
 
 // Find value by iterating through array from left to right.
 function linearSearch(arr, val) {
-    
+    // 
+    for (let i = 0; i < arr.length; i++) {
+        let current = arr[i];
+        console.log(current);
+    }
 
 }
 
