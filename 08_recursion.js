@@ -33,6 +33,26 @@ sumRange(5);
 // Iterative.
 // e.g. 4! = 4 * 3 * 2 * 1
 function factorial (num) {
-
+    let total = 1;
+    for (let i = num; i > 0; i--) {
+        total = total * i;
+    }
+    return total;
 }
+
+factorial(4);
+
+// function factorial (4) {
+//     let total = 1;
+//     for (let i = 4; i > 0; i--) {
+//         total = 1 * 4; i = 4 
+//         total = 4 * 3; i = 3 
+//         total = 12 * 2; i = 2
+//         total = 24 * 1; i = 1
+//         i = 0
+//     }
+//     total = 24
+
+// }
+
 
