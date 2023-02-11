@@ -3,7 +3,8 @@
 // Array must be sorted.
 
 // Find value by iterating through array from left to right.
-function linearSearch() {
+function linearSearch(arr, val) {
+    
 
 }
 
