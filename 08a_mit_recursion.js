@@ -27,7 +27,11 @@ mult_iter(3, 5)
 //     or recursive reduction
 //     a + a * (b - 1)
 //     when b = 1, a * b = a
-function mult() {
-    
+function mult(a, b) {
+    // Base case.
+    if ( b === 1 ) {
+        return a;
+    }
+
 }
 
