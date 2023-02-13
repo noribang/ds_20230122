@@ -26,3 +26,8 @@ mult_iter(3, 5)
 //     = a + a + a + a + a... + a; a + a added to itself (b - 1) times    
 //     or recursive reduction
 //     a + a * (b - 1)
+//     when b = 1, a * b = a
+function mult() {
+    
+}
+
