@@ -32,6 +32,9 @@ function mult(a, b) {
     if ( b === 1 ) {
         return a;
     }
-
+    // Recursive case.
+    else {
+        return a + mult(a, b - 1)
+    }
 }
 
