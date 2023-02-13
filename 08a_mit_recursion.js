@@ -1,4 +1,4 @@
-// 1) Multiplication
+// 1) Multiplication - Iterative
 // a. a * b
 // b. add a to itself b times
 // a + a + a...+ a 
@@ -19,3 +19,10 @@ function mult_iter(a, b) {
     return result;
 }
 mult_iter(3, 5)
+
+// 1a) Multiplication - Recursive 
+// a*b = a + a + a + a + a... + a; a, b times 
+//     or written another way
+//     = a + a + a + a + a... + a; a + a added to itself (b - 1) times    
+//     or recursive reduction
+//     a + a * (b - 1)
