@@ -37,4 +37,4 @@ function mult(a, b) {
         return a + mult(a, b - 1)
     }
 }
-
+mult_iter(3, 5)
