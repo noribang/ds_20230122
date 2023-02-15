@@ -22,10 +22,13 @@ function same(arr1, arr2) {
                 console.log(arr2)
             }
         }
-
     }
-    console.log("arr2: ", arr2)
-
+    // console.log("arr2: ", arr2)
+    if (arr2.length !== 0) {
+        return false;
+    } else {
+        return false;
+    }
 }
 
 
