@@ -3,7 +3,9 @@
 
 // Compare two arrays of same frequency of values.
 // Same length array. Same values in array.
+function same(arr1, arr2) {
 
+}
 
 
 test1 = [1,2,3,4,5]
