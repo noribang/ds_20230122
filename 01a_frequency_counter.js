@@ -8,7 +8,10 @@ function same(arr1, arr2) {
     // Two object literals.
     let frequencyCounter1 = {};
     let frequencyCounter2 = {};
-
+    // Populate objects with frequency of each value in array.
+    for (let val of arr1) {
+        console.log(val)
+    }
 
 }
 
