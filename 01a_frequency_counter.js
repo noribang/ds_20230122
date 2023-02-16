@@ -1,7 +1,10 @@
 // O(n) linear time complexity.
 
 function same(arr1, arr2) {
-
+    // Test length of both arrays.
+    if (arr1.length !== arr2.length) {
+        return false;
+    }
 
 
 }
