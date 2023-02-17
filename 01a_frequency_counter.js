@@ -3,9 +3,14 @@
 // and frequency of values.
 
 function same(arr1, arr2) {
-    // Check if two arrays are not the
-    // same length. If not same length
-    // return false. 
+    // Check lengths of two arrays.
+    // If not same length return false.
+    if (arr1.length !== arr2.length) {
+        return false;
+    } 
+    // Create two object literals.
+    frequencyCounter1 = {};
+    frequencyCounter2 = {};
 
 }
 
