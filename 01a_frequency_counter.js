@@ -1,6 +1,11 @@
 // O(n) linear time complexity.
+// Compare two arrays for same values
+// and frequency of values.
 
 function same(arr1, arr2) {
+    // Check if two arrays are not the
+    // same length. If not same length
+    // return false. 
 
 }
 
