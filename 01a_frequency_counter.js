@@ -14,10 +14,14 @@ function same(arr1, arr2) {
     // Populate object with arr1 frequency of values.
     for (let val of arr1) {
         frequencyCounter1[val] = (frequencyCounter1[val] || 0) + 1;
-        console.log(frequencyCounter1)
     }
+    console.log(frequencyCounter1)
+    // Populate object with arr2 frequency of values.
+    for ( let val of arr2 ) {
+        frequencyCounter2[val] = (frequencyCounter2[val] || 0) + 1;
+    }
+    console.log(frequencyCounter2)
 
-    
 }
 
 
