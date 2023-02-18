@@ -29,9 +29,15 @@ function same(arr1, arr2) {
             // console.log(key**2 in frequencyCounter2)
             return false;
         }
-
+        // Test if every key**2 value in second object is the same value of key of the first object.
+        // If ever not true return false.
+        if (frequencyCounter2[key**2] !== frequencyCounter1[key]) {
+            // console.log(true);
+            return false;
+        }
     }
-
+    // Return true if all tests pass.
+    return true;
 }
 
 
