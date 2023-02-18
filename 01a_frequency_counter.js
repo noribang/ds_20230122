@@ -8,6 +8,15 @@ function same(arr1, arr2) {
     if (arr1.length !== arr2.length) {
         return false;
     }
+    // Create two objects to hold frequency values.
+    let frequencyCounter1 = {};
+    let frequencyCounter2 = {};
+    // Populate object with arr1 frequency of values.
+    for (let val of arr1) {
+        frequencyCounter1[val] = (frequencyCounter1[val] || 0) + 1;
+        console.log(frequencyCounter1)
+    }
+
     
 }
 
