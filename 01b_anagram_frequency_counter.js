@@ -6,5 +6,7 @@ function anagram(str1, str2) {
     // Test length of strings.
     // Check if both strings are not equal.
     // If string lengths are not equal return false.
-    
+    if (str1 !== str2) {
+        return false;
+    }
 }
