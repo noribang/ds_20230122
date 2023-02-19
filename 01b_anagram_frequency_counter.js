@@ -9,4 +9,14 @@ function anagram(str1, str2) {
     if (str1 !== str2) {
         return false;
     }
+    return true;
 }
+
+
+strAna1 = ''
+strAna2 = ''
+// strAna1 = 'aaz'// false
+// strAna2 = 'zza'// false
+// strAna1 = 'anagram'
+// strAna2 = 'nagaram'
+anagram()
