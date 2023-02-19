@@ -3,13 +3,25 @@
 // Same frequency of values.
 
 function anagram(str1, str2) {
+    // If lengths of strings are not equal no longer need to continue.
     // Test length of strings.
     // Check if both strings are not equal.
     // If string lengths are not equal return false.
     if (str1 !== str2) {
         return false;
     }
-    return true;
+    // Loop through each element in str1.
+    // Store to temp variable.
+    // Compare temp to each element in str2.
+    // If temp exists in str2 splice out that element from str1.
+    for (let i = 0; i < str1.length; i++) {
+        let temp = str1[i];
+        console.log(temp);
+    }
+
+
+    // Retrue if str1 is empty.
+    // return true;
 }
 
 
