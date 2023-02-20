@@ -13,16 +13,8 @@ function anagram(str1, str2) {
     // Loop through each element in str1.
     // Store to temp variable.
     // Compare temp to each element in str2.
-    // If temp exists in str2 splice out that element from str1.
-    for (let i = 0; i < str1.length; i++) {
-        let temp = str1[i];
-        // console.log(temp);
-        for (let j = 0; j < str2.length; j++) {
-            if (temp === str2[j]) {
-                console.log(temp, " at: ", j)
-            }
-        }
-    }
+    // If temp exists in str2.
+    
 
 
     // Retrue if str1 is empty.
@@ -36,4 +28,4 @@ strAna2 = ''
 // strAna2 = 'zza'// false
 // strAna1 = 'anagram'
 // strAna2 = 'nagaram'
-anagram()
+anagram(strAna1, strAna2)
