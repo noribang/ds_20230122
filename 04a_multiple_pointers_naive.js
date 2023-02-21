@@ -1,4 +1,9 @@
 function sumZero(arr) {
+    // Iterate through array starting at 0.
+    for (let i= 0; i < arr.length; i++) {
+        console.log(arr[i])
+    }
+
 
 }
 
