@@ -12,8 +12,13 @@ function sumZero(arr) {
         let sum = arr[left] + arr[right];
         if (sum === 0) {
             return [arr[left], arr[right]]
+        } else if (sum > 0) {
+            // Move right pointer to left.
+            right--;
+        } else {
+            // Move left pointer right if sum < 0.
+            left++;
         }
-
     }
-
 }
+
