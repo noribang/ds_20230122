@@ -6,6 +6,9 @@ function sumZero(arr) {
     let left = 0;
     // Second pointer.
     let right = arr.length - 1;
-    
+    // Loop through array.
+    while (left < right) {
+
+    }
 
 }
