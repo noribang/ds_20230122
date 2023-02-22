@@ -8,6 +8,8 @@ function sumZero(arr) {
     let right = arr.length - 1;
     // Loop through array.
     while (left < right) {
+        let sum = arr[left] + arr[right];
+        
 
     }
 
