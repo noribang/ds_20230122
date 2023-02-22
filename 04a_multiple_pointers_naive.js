@@ -1,3 +1,4 @@
+// Find two values in array that add to zero.
 function sumZero(arr) {
     // Iterate through array starting at 0.
     for (let i= 0; i < arr.length; i++) {
@@ -9,8 +10,6 @@ function sumZero(arr) {
             }
         }
     }
-
-
 }
 
 sumZero([-4,-3,-2,-1,0,1,2,5])
