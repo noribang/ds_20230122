@@ -4,7 +4,9 @@
 // Find first two values of array that equal zero.
 function sumZero(arr) {
     // Iterate through array starting from index 0 until length - 1.
-
+    // Nested loop will iterate through array starting from i+1 until 
+    // find second value summed with first value equals zero.
+     
 
 }
 
