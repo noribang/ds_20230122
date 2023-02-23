@@ -7,7 +7,10 @@ function sumZero(arr) {
     // Nested loop will iterate through array starting from i+1 until 
     // find second value summed with first value equals zero.
     for (let i = 0; i < arr.length; i++) {
-        console.log(i);
+        // console.log(arr[i]);
+        for (let j = i + 1; j < arr.length; j++) {
+            console.log(arr[j])
+        }
     } 
 
 }
