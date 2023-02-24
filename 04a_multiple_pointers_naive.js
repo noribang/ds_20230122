@@ -13,6 +13,12 @@
 // At each iteration of second pointer through array it is added
 // to first pointer and sum is tested to see if sum equals zero.
 function sumZero(arr) {
+    // First pointer starts at index 0 and iterates to the last value of array.
+    for (let i = 0; i < arr.length; i++) {
+        // console.log(arr[i])
+
+
+    }
 
 } 
 
