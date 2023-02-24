@@ -16,7 +16,11 @@ function sumZero(arr) {
     // First pointer starts at index 0 and iterates to the last value of array.
     for (let i = 0; i < arr.length; i++) {
         // console.log(arr[i])
-
+        // Second pointer starts at index 0 + 1 (immedaite right of first pointer.)
+        // Second pointer iterates until end of array.
+        for (let j = i + 1; j < arr.length; j++) {
+            console.log(arr[j])
+        }
 
     }
 
