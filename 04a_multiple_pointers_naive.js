@@ -19,7 +19,12 @@ function sumZero(arr) {
         // Second pointer starts at index 0 + 1 (immedaite right of first pointer.)
         // Second pointer iterates until end of array.
         for (let j = i + 1; j < arr.length; j++) {
-            console.log(arr[j])
+            // console.log(arr[j])
+            // If first pointer and second pointer add to zero return 
+            // the two values in an array. 
+            if (arr[i] + arr[j] === 0) {
+                return [arr[i], arr[j]]
+            }
         }
 
     }
