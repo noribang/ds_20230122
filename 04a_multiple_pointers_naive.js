@@ -11,7 +11,10 @@
 // First pointer value is added to second pointer value while second pointer 
 // iterates through array.
 // At each iteration of second pointer through array it is added
-// to first pointer and sum is tested to see if sum equals zero. 
+// to first pointer and sum is tested to see if sum equals zero.
+function sumZero(arr) {
+
+} 
 
 
 
