@@ -6,6 +6,10 @@ function maxSubarraySum(arr, num) {
     }
     let max = -Infinity
     for (let i = 0; i < arr.length - num +1; i++) {
+        temp = 0;
+        for (let j = 0; j < num; j++) {
+
+        }
 
     }
 
