@@ -1,4 +1,4 @@
 // O(n^2) time complexity.
-function maxSubarraySum() {
+function maxSubarraySum(arr, num) {
 
 }
