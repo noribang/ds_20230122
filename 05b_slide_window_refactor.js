@@ -7,9 +7,13 @@ function maxSubarraySum(arr, num) {
     // Check if arr.length is shorter 
     // than subset num we are looking for.
     if (arr.length < num) return null;
+    // Sum first subset.
+    for (let i = 0; i < num; i++) {
+        maxSum = maxSum + arr[i];
+        console.log(maxSum)
+    }
 
 }
-
 
 maxSubarraySum([],3)
 maxSubarraySum([2,6,9,2,1,8,5,6,3],3)
