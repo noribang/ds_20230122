@@ -12,7 +12,14 @@ function maxSubarraySum(arr, num) {
         maxSum = maxSum + arr[i];
         console.log(maxSum)
     }
-
+    // Bind first subset sum to tempSum.
+    tempSum = maxSum;
+    // 
+    for (let i = num; i < arr.length; i++) {
+        tempSum = tempSum - arr[i - num] +arr[i]
+        maxSum = Math.max(maxSum, tempSum)
+    }
+    return maxSum
 }
 
 maxSubarraySum([],3)
