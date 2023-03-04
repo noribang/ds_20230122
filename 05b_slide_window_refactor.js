@@ -1,5 +1,5 @@
 // O(n) linear time complexity.
 
-function maxSubarraySum() {
-    
+function maxSubarraySum(arr, num) {
+
 }
